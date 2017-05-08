@@ -12,7 +12,6 @@ import org.junit.Assert.assertEquals
  */
 class ExampleUnitTestKotlin {
     @Test
-    @Throws(Exception::class)
     fun addition_isCorrect() {
         val activity = Mockito.mock(MainActivity::class.java)
         assertEquals(4, (2 + 2).toLong())
